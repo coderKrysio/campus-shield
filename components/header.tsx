@@ -14,7 +14,7 @@ export const Header = () => {
                 </p>
             </Link>
 
-            <button className="flex gap-2 py-2 px-5 font-medium bg-white rounded-lg hover:bg-[#89cff1] hover:font-semibold transition-colors max-[580px]:hidden">
+            <button className="flex gap-2 py-2 px-5 font-medium bg-white border-2 border-[#003A6B] rounded-lg hover:bg-[#003A6B] hover:border-white hover:font-semibold hover:text-white transition-colors max-[580px]:hidden">
                 <HelpingHand width={24} height={24} strokeWidth={1.5} /> Get
                 Help Now
             </button>
