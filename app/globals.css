@@ -6,3 +6,15 @@
         text-wrap: balance;
     }
 }
+
+.prevention-box {
+    --mask: radial-gradient(30px at top, #0000 97%, #000) 50% / 55.5px 100%;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
+
+.laws {
+    --mask: radial-gradient(10px at 10px 50%, #0000 97%, #000) -10px/ 100% 18.5px;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
